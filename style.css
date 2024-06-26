@@ -1,0 +1,21 @@
+body{
+    background: radial-gradient(circle at top, #516472 , #0f1b1b);
+    color: #F5F7F8;
+    width: 1100px;
+    margin: auto;
+    /*font-family: "Space Grotesk", sans-serif;*/
+    font-family: "Exo", sans-serif;
+}
+a{
+    color: #F5F7F8;
+    text-decoration: none;
+}
+nav ul li{
+    margin: 10px;
+    list-style-type: none;
+    display: inline-block;
+}
+.nav1{
+    font-family: "Wellfleet", monospace;
+    font-size: 18px;
+}
