@@ -1,6 +1,5 @@
 /* Phones with screen width up to 480px */
 @media (max-width: 480px) {
-/* Styles for phones with screen width up to 480px */
 .menu-icon {
     display: block;
     font-size: 28px;
@@ -13,7 +12,7 @@
 
 .nav1 {
     position: fixed;
-    right: -100%; /* Initially hidden off-screen to the right */
+    right: -100%; 
     width: 100%;
     height: 100vh;
     background-color: #333;
@@ -21,14 +20,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    transition: transform 0.7s ease, right 0.7s ease; /* Add 'right' property to the transition */
+    transition: transform 0.7s ease, right 0.7s ease; 
     transform: translateY(-100%);
-    transform-origin: top right; /* Set transform origin to top right corner */
+    transform-origin: top right; 
 }
 
 .nav1.show {
-    transform: translateY(0); /* Move into viewport when .show class is applied */
-    right: 0; /* Bring menu to the right edge of the viewport */
+    transform: translateY(0); 
+    right: 0; 
     margin: 0;
     width: 100%;
     height: 100%;
@@ -39,9 +38,8 @@ nav ul li:last-child{
 }
 }
   
-  /* Phones with screen width between 481px and 767px */
-  @media (min-width: 481px) and (max-width: 767px) {
-/* Styles for phones with screen width up to 480px */
+/* Phones with screen width between 481px and 767px */
+@media (min-width: 481px) and (max-width: 767px) {
 .menu-icon {
     display: block;
     font-size: 28px;
@@ -54,7 +52,7 @@ nav ul li:last-child{
 
 .nav1 {
     position: fixed;
-    right: -100%; /* Initially hidden off-screen to the right */
+    right: -100%; 
     width: 100%;
     height: 100vh;
     background-color: #333;
@@ -62,55 +60,14 @@ nav ul li:last-child{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    transition: transform 0.7s ease, right 0.7s ease; /* Add 'right' property to the transition */
+    transition: transform 0.7s ease, right 0.7s ease; 
     transform: translateY(-100%);
-    transform-origin: top right; /* Set transform origin to top right corner */
+    transform-origin: top right; 
 }
 
 .nav1.show {
-    transform: translateY(0); /* Move into viewport when .show class is applied */
-    right: 0; /* Bring menu to the right edge of the viewport */
-    margin: 0;
-    width: 100%;
-    height: 100%;
-}
-
-nav ul li:last-child{
-    padding-bottom: 50px;
-}
-  }
-  
-  /* Phones with screen width between 768px and 991px */
-  @media (min-width: 768px) and (max-width: 991px) {
-/* Styles for phones with screen width up to 480px */
-.menu-icon {
-    display: block;
-    font-size: 28px;
-    cursor: pointer;
-    position: fixed;
-    right: 35px;
-    top: 15px;
-    z-index: 1001;
-    }
-
-.nav1 {
-    position: fixed;
-    right: -100%; /* Initially hidden off-screen to the right */
-    width: 100%;
-    height: 100vh;
-    background-color: #333;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    transition: transform 0.7s ease, right 0.7s ease; /* Add 'right' property to the transition */
-    transform: translateY(-100%);
-    transform-origin: top right; /* Set transform origin to top right corner */
-}
-
-.nav1.show {
-    transform: translateY(0); /* Move into viewport when .show class is applied */
-    right: 0; /* Bring menu to the right edge of the viewport */
+    transform: translateY(0); 
+    right: 0; 
     margin: 0;
     width: 100%;
     height: 100%;
@@ -121,9 +78,8 @@ nav ul li:last-child{
 }
   }
   
-  /* Phones with screen width between 992px and 1199px */
-  @media (min-width: 992px) and (max-width: 1199px) {
-/* Styles for phones with screen width up to 480px */
+/* Phones with screen width between 768px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
 .menu-icon {
     display: block;
     font-size: 28px;
@@ -136,7 +92,7 @@ nav ul li:last-child{
 
 .nav1 {
     position: fixed;
-    right: -100%; /* Initially hidden off-screen to the right */
+    right: -100%; 
     width: 100%;
     height: 100vh;
     background-color: #333;
@@ -144,14 +100,54 @@ nav ul li:last-child{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    transition: transform 0.7s ease, right 0.7s ease; /* Add 'right' property to the transition */
+    transition: transform 0.7s ease, right 0.7s ease; 
     transform: translateY(-100%);
-    transform-origin: top right; /* Set transform origin to top right corner */
+    transform-origin: top right; 
 }
 
 .nav1.show {
-    transform: translateY(0); /* Move into viewport when .show class is applied */
-    right: 0; /* Bring menu to the right edge of the viewport */
+    transform: translateY(0); 
+    right: 0; 
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+nav ul li:last-child{
+    padding-bottom: 50px;
+}
+  }
+  
+/* Phones with screen width between 992px and 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+.menu-icon {
+    display: block;
+    font-size: 28px;
+    cursor: pointer;
+    position: fixed;
+    right: 35px;
+    top: 15px;
+    z-index: 1001;
+    }
+
+.nav1 {
+    position: fixed;
+    right: -100%; 
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: transform 0.7s ease, right 0.7s ease; 
+    transform: translateY(-100%);
+    transform-origin: top right; 
+}
+
+.nav1.show {
+    transform: translateY(0); 
+    right: 0; 
     margin: 0;
     width: 100%;
     height: 100%;
