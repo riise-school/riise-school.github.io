@@ -1,10 +1,13 @@
 body{
     background: radial-gradient(circle at top, #516472 , #0f1b1b);
     color: #F5F7F8;
-    width: 1100px;
+    width: 100%;
     margin: auto;
     /*font-family: "Space Grotesk", sans-serif;*/
     font-family: "Exo", sans-serif;
+}
+section{
+    margin: 80px;
 }
 a{
     color: #F5F7F8;
@@ -15,7 +18,28 @@ nav ul li{
     list-style-type: none;
     display: inline-block;
 }
-.nav1{
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.nav1 {
+    list-style: none;
+    display: flex;
     font-family: "Wellfleet", monospace;
     font-size: 18px;
+    padding: 10px;
+    width: 100%;
+    margin: 0px;
+}
+
+.nav1 li a:hover{
+    color: #2dad06;
 }
