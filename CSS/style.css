@@ -1,0 +1,58 @@
+body{
+    background: radial-gradient(circle at bottom, #2b4252 , #060c0c);
+    color: #F5F7F8;
+    width: 100%;
+    margin: auto;
+    /*font-family: "Space Grotesk", sans-serif;*/
+    font-family: "Exo", sans-serif;
+}
+
+/*for all <a> tags*/
+a{
+    color: #F5F7F8;
+    text-decoration: none;
+}
+
+/*Navigation bar*/
+.nav1 {
+    list-style: none;
+    display: flex;
+    font-family: "Wellfleet", monospace;
+    font-size: 18px;
+    width: 100%;
+    margin: 10px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20% !important;
+}
+.menu-icon {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+.nav1 li a:hover{
+    color: #2dad06;
+}
+.nav1 li{
+    margin: 10px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+/* SECTIONS*/
+section{
+    margin: auto;
+    max-width: 800px;
+}
+#aboutMe ul, #projects ul, #skills ul{
+    margin-bottom: 20px;
+}
+#aboutMe ul li, #projects ul li, #skills ul li{
+    list-style-type: none;
+}
+#aboutMe ul ul li, #projects ul ul li, #skills ul ul li{
+    list-style-type: circle;
+    padding: 3px;
+}
