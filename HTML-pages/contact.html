@@ -1,15 +1,35 @@
-<section id="contact">
-    <div>
-        <h2>Contact</h2>
-        <p>Feel free to reach out to me for any inquiries or collaboration opportunities:</p>
-        <form action="[Your Contact Form Handler]" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea><br>
-            <input type="submit" value="Send">
-        </form>
+<section id="contact-form">
+  <div class="contact-intro">
+    <h2 class="contact-title">Get in Touch</h2>
+    <p class="contact-description">
+      Fill out the form below and I'll get back to you as soon as possible.
+    </p>
+  </div>
+
+  <form id="contactForm" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="a7d82ab3-d97d-462a-a089-d4dd5526978c" />
+    <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+    <input type="hidden" name="from_name" value="My Website" />
+
+    <div class="form-group-container">
+      <div class="form-group">
+        <label for="name" class="form-label">Name</label>
+        <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+      </div>
+      <div class="form-group">
+        <label for="email" class="form-label">Email</label>
+        <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+      </div>
+      <div class="form-group">
+        <label for="phone" class="form-label">Phone</label>
+        <input id="phone" name="phone" class="form-input" placeholder="+49 (123) 456789" type="text" />
+      </div>
+      <div class="form-group">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+      </div>
     </div>
+    <div class="h-captcha" data-captcha="true"></div>
+    <button class="form-submit" type="submit">Send Message</button>
+  </form>
 </section>

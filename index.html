@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--CSS-MAIN-->
+    <!--CSS MAIN-->
     <link href="style.css" rel="stylesheet">
     <!--CSS responsive for any device-->
     <link href="CSS-mobile-responsive/mobile-table-tv.css" rel="stylesheet">
@@ -20,76 +20,147 @@
 <!--HEADER-->
 <header>
     <nav>
-            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
-            <ul class="nav1">
-                <li class="logo">Riise</li>
-                <li><a href="#about" onclick="closeMenu()">About Me</a></li>
-                <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
-                <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
-                <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
-                <li><a href="#impressum" onclick="closeMenu()">Impressum</a></li>
-                <li><a href="#data-protection" onclick="closeMenu()">Data Protection</a></li>
-            </ul>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <ul class="nav1">
+            <li class="logo">Riise</li>
+            <li><a href="#about" onclick="closeMenu()">About Me</a></li>
+            <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+            <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+            <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+            <li><a href="#impressum" onclick="closeMenu()">Impressum</a></li>
+            <li><a href="#data-protection" onclick="closeMenu()">Data Protection</a></li>
+        </ul>
+    </nav>
 </header>
+
 <br>
-<!--SECTION-->
-<section id="section">
-    <div>
+
+<!--About me-->
+<section id="aboutMe">
         <h2>About Me</h2>
         <p>Hi, I'm Robert, a passion in everything that has to do with IT.</p>
         I have experience in:
-        <ul>
-            <li>Linux.</li>
-            <li></li>
-            <li></li>
-        </ul>.
-        <p>I love creating beautiful and functional websites that provide value to users.</p>
-    </div>
 </section>
 
+<!--Projects -->
 <section id="projects">
-    <div>
         <h2>My Projects</h2>
-        <p>Here are some of the projects I've worked on:</p>
+        <p>All my project are hosted on Github, here is the list of them:</p>
         <ul>
             <li><a href="[Link to Project 1]">Project 1</a> - A brief description of what this project is about and the technologies used.</li>
             <li><a href="[Link to Project 2]">Project 2</a> - A brief description of what this project is about and the technologies used.</li>
             <li><a href="[Link to Project 3]">Project 3</a> - A brief description of what this project is about and the technologies used.</li>
         </ul>
-    </div>
 </section>
 
+<!--Skills-->
 <section id="skills">
-    <div>
-        <h2>Skills</h2>
-        <p>Here are some of the skills I've acquired over the years:</p>
-        
+<h2>My Skills</h2>
+<ul>
+    <!--Linux -->
+    <li>Linux (Arch)
         <ul>
-            <li>HTML & CSS</li>
-            <li>JavaScript</li>
-            <ul>
-                <li>Frameworks:</li>
-            </ul>
+            <li>Linux Command Line Proficiency</li>
+            <li>System Administration</li>
+            <li>Networking and Security</li>
+            <li>Package Management</li>
+            <li>Monitoring and Troubleshooting</li>
+            <li>Version Control Systems</li>
+            <li>Backup and Recovery</li>
+            <li>Continuous Integration/Continuous Deployment</li>
         </ul>
-        
+    </li>
+    <!--Docker,VMware -->
+    <li>Virtualizirung / Cloud Computing (Docker, VMware)
         <ul>
-            <li>Python</li>
+            <li>VM Lifecycle Management</li>
+            <li>Storage and Networking in Virtual Environments</li>
+            <li>Performance Monitoring and Optimization</li>
+            <li>Backup and Disaster Recovery</li>
+            <li>Security in Virtual Environments</li>
+            <li>Containers and Container Orchestration</li>
+            <li>Industry Standards and Best Practices</li>
+            <li>Troubleshooting and Support</li>
         </ul>
-        
+    </li>
+    <!--Database -->
+    <li>Database Management
         <ul>
-            <li>C++</li>
+            <li>SQL</li>
         </ul>
-
+    </li>
+    <!-- Docker, VMware
+    <li>Cloud Computing (Docker, VMware)
         <ul>
+            <li></li>
+        </ul>
+    </li>-->
+    <!--GIT -->
+    <li>Version Control (Git)
+        <ul>
+            <li>Basic Git Commands</li>
+            <li>Branching and Merging</li>
+            <li>Remote Repositories</li>
+        </ul>
+    </li>
+    <!--WebDev -->
+    <li>web development
+        <ul>
+            <li>Frontend
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript ES6 + JSDocs</li>
+                    <li>Frameworks</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <!-- Software-->
+    <li>small software development
+        <ul>
+            <li>Cpp</li>
+            <li>C#</li>
             <li>Java</li>
         </ul>
-        <ul>
-            <li>Python</li>
-        </ul>
-        <ul>
-            <li>Linux</li>
-        </ul>
+    </li>
+</ul>
+</section>
+<!--Contact form -->
+<section id="contact-form">
+  <div class="contact-intro">
+    <h2 class="contact-title">Get in Touch</h2>
+    <p class="contact-description">
+      Fill out the form below and I'll get back to you as soon as possible.
+    </p>
+  </div>
+
+  <form id="contactForm" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="a7d82ab3-d97d-462a-a089-d4dd5526978c" />
+    <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+    <input type="hidden" name="from_name" value="My Website" />
+
+    <div class="form-group-container">
+      <div class="form-group">
+        <label for="name" class="form-label">Name</label>
+        <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+      </div>
+      <div class="form-group">
+        <label for="email" class="form-label">Email</label>
+        <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+      </div>
+      <div class="form-group">
+        <label for="phone" class="form-label">Phone</label>
+        <input id="phone" name="phone" class="form-input" placeholder="+49 (123) 456789" type="text" />
+      </div>
+      <div class="form-group">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+      </div>
     </div>
+    <div class="h-captcha" data-captcha="true"></div>
+    <button class="form-submit" type="submit">Send Message</button>
+  </form>
 </section>
 
 <br>
@@ -103,6 +174,8 @@
         <p><a href="#data-protection">Data Protection</a></p>
     </div>
 </footer>
+<!-- JAVASCRIPT-->
 <script src="scripts.js"></script>
+<script src="https://web3forms.com/client/script.js" async defer></script>
 </body>
 </html>

@@ -36,6 +36,12 @@
 nav ul li:last-child{
     padding-bottom: 50px;
 }
+.logo{
+    margin: 0px !important;
+}
+section{
+    margin: 0px 15px;
+}
 }
   
 /* Phones with screen width between 481px and 767px */
@@ -75,6 +81,12 @@ nav ul li:last-child{
 
 nav ul li:last-child{
     padding-bottom: 50px;
+}
+.logo{
+    margin: 0px !important;
+}
+section{
+    margin: 0px 15px;
 }
   }
   
@@ -116,6 +128,12 @@ nav ul li:last-child{
 nav ul li:last-child{
     padding-bottom: 50px;
 }
+.logo{
+    margin: 0px !important;
+}
+section{
+    margin: 0px 15px;
+}
   }
   
 /* Phones with screen width between 992px and 1199px */
@@ -155,6 +173,12 @@ nav ul li:last-child{
 
 nav ul li:last-child{
     padding-bottom: 50px;
+}
+.logo{
+    margin: 0px !important;
+}
+section{
+    margin: 0px 15px;
 }
   }
 
