@@ -79,12 +79,21 @@ section{
 }
 #projects ul li{
     display: inline-block;
-    background-color: #2b4252;
+    background-color: #1a2731;
     padding: 15px;
     margin: 15px 15px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 22%;
+}
+#skills ul li{
+    background-color: #1a2731;
+    padding: 15px;
+    border-radius: 8px;
+    width: 80%;
+}
+#skills ul li{
+    margin: 20px;
 }
 
 /*FOOTER*/

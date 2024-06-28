@@ -2,6 +2,10 @@
 #contact-form{
     max-width: 600px;
     margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #1a2731;
+    padding: 25px;
 }
 .contact-section {
     width: 100%;
