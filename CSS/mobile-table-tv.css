@@ -8,7 +8,7 @@
     right: 35px;
     top: 15px;
     z-index: 1001;
-    }
+}
 
 .nav1 {
     position: fixed;
@@ -54,7 +54,7 @@ section{
     right: 35px;
     top: 15px;
     z-index: 1001;
-    }
+}
 
 .nav1 {
     position: fixed;
@@ -88,7 +88,7 @@ nav ul li:last-child{
 section{
     margin: 0px 15px;
 }
-  }
+}
   
 /* Phones with screen width between 768px and 991px */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -134,7 +134,7 @@ nav ul li:last-child{
 section{
     margin: 0px 15px;
 }
-  }
+}
   
 /* Phones with screen width between 992px and 1199px */
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -184,4 +184,3 @@ section{
 
   /* Phones with screen width 1200px and above */
   @media (min-width: 1200px) {}
-  
