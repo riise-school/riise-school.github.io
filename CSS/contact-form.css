@@ -1,11 +1,10 @@
-/* Contact form */
-#contact-form{
-    max-width: 600px;
+/* Contact form  */
+#contact-form{              
+    width: 40%;
     margin: auto;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #1a2731;
-    padding: 25px;
+    background-color: #0e181f;
+    padding: 35px;
 }
 .contact-section {
     width: 100%;
@@ -40,7 +39,7 @@
 .form-input,
 .form-textarea {
     padding: 3px;
-    border: 1px solid #e5e7eb;
+    border: 1px solid #3f4757;
     display: flex;
     height: 2.5rem;
     width: 100%;
@@ -49,10 +48,10 @@
     line-height: 1.25rem;
 }
 .form-input::placeholder, .form-textarea:focus-visible {
-    color: #6b7280;
+    color: #333333;
 }
 .form-input:focus-visible, .form-textarea:focus-visible {
-    outline: 2px solid #2563eb;
+    outline: 2px solid #152f68;
     outline-offset: 2px;
 }
 .form-textarea {
@@ -61,8 +60,15 @@
 .form-submit {
     width: 100%;
     margin-top: 1.2rem;
-    background-color: #3124ca;
-    color: #fff;
+    background-color: #231c6b;
+    color: #ffffff;
     padding: 13px 5px;
-    border-radius: 0.375rem;
+    border-radius: 0.375rem;    
+}
+body{
+    background: radial-gradient(circle at bottom, #2b4252 , #060c0c);
+    color: white;
+}
+.h-captcha{
+    margin: 15px;
 }
