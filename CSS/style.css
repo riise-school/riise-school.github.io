@@ -102,3 +102,129 @@ footer{
     width: 100%;
     text-align: center;
 }
+
+
+
+
+
+.terminal-window {
+    font-family: 'Courier New', Courier, monospace;
+    width: 1200px;
+    background-color: #2b2b2b;
+    color: #ffffff;
+    overflow: hidden;
+    margin: 50px auto;
+    border-radius: 1.5%;
+    animation: float 4s ease-in-out infinite;   
+}
+@keyframes float {
+    0%, 100% {
+        box-shadow: -5px -5px 5px 5px rgba(1, 33, 93, 0.8), 5px 5px 5px 2px rgba(4, 133, 53, 0.8);
+        transform: translateY(2);
+    }
+    50% {
+        box-shadow: -10px -10px 15px 5px rgba(1, 33, 93, 0.6), 10px 10px 15px 8px rgba(1, 107, 42, 0.6);
+        transform: translateY(-2px);
+    }
+}
+
+.terminal-header {
+    background-color: #1e1e1e;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.terminal-button {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-right: 8px;
+    text-align: center;
+}
+
+.close {
+    background-color: #862823;
+}
+
+.minimize {
+    background-color: #97701d;
+}
+
+.maximize {
+    background-color: #1c7a2a;
+}
+
+.terminal-title {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 14px;
+}
+
+.terminal-body {
+    padding: 16px;
+}
+
+.logo img{
+    width: 35%;
+    float: left;
+    margin: 35px;
+    height: 350px;
+}
+
+.color-cyan {
+    color: #1a75ff;
+}
+
+.color-gray {
+    color: #d8dee9;
+}
+
+.info {
+    color: #d8dee9;
+    margin-top: 20px;
+    font-size: 15px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.sudo{
+    width: 70%;
+    margin: 15px auto;
+    margin-top: 55px;
+}
+.landingPage{
+    width: 100%;
+    height: 700px;
+}
+
+.typing-container {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    color: #ffffff;
+    padding-left: 25%;
+}
+.container-typing{
+    width: 80%;
+    margin: 20% auto;
+}
+h1, h2, h3 ,h4{
+    margin: 0px;
+    padding: 0px;
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: rgba(255, 255, 255, 0.75);
+    }
+}
+
+.typing-container::after {
+    content: '';
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    animation: blink-caret 1.15s step-end infinite;
+}
