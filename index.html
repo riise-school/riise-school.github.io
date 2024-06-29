@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-    <title>My Portfolio</title>
+    <title>Mein Portfolio</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,78 +19,146 @@
     </head>
 <body>
 
-<!--HEADER-->
+<!--HEADER-->   
 <header>
     <nav>
         <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
         <ul class="nav1">
             <li class="logo">Riise</li>
-            <li><a href="#about" onclick="closeMenu()">About Me</a></li>
-            <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
-            <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
-            <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+            <li><a href="#about" onclick="closeMenu()">Über mich</a></li>
+            <li><a href="#projects" onclick="closeMenu()">Projekte</a></li>
+            <li><a href="#skills" onclick="closeMenu()">Fähigkeiten</a></li>
+            <li><a href="#contact-form" onclick="closeMenu()">Kontakt</a></li>
             <li><a href="#impressum" onclick="closeMenu()">Impressum</a></li>
-            <li><a href="#data-protection" onclick="closeMenu()">Data Protection</a></li>
+            <li><a href="#data-protection" onclick="closeMenu()">Datenschutz</a></li>
         </ul>
     </nav>
 </header>
+<!--Landing page                -->
+<div class="landingPage">
+    <div class="container-typing">
+        <div class="typing-container" id="typing-container"></div>
+        <!-- The text will be inserted here by JavaScript -->
+    </div>
+</div>
+<!--Terminal window-->
+<div class="terminal-window">
+    <div class="terminal-header">
+        <div class="terminal-button maximize"></div>
+        <div class="terminal-button minimize"></div>            
+        <div class="terminal-button close">X</div>
+        <div class="terminal-title">riise@archlinux: ~</div>
+    </div>
+    <div class="terminal-body">
+    <div class="logo">
+        <img src="img/arch-logo.png" alt="arch-logo">
+    </div>
+<!--
+<span class="color-cyan">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</span>
+<span class="color-cyan">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</span>
+<span class="color-cyan">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</span>    
+<span class="color-cyan">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</span>
+<span class="color-cyan">⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣷⣤⣙⢻⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀</span>
+<span class="color-cyan">⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀</span>
+<span class="color-cyan">⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡄⠀⠀⠀⠀⠀⠀⠀</span>
+<span class="color-cyan">⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⡿⠛⠛⠿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀</span>
+<span class="color-cyan">⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠙⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀</span>
+<span class="color-cyan">⠀⠀⠀⠀⣰⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⠿⣆⠀⠀⠀⠀</span>
+<span class="color-cyan">⠀⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀</span>
+<span class="color-cyan">⠀⢀⣾⣿⣿⠿⠟⠛⠋⠉⠉⠀⠀⠀⠀⠀⠀⠉⠉⠙⠛⠻⠿⣿⣿⣷⡀⠀</span>
+<span class="color-cyan">⣠⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠻⣄</span>
+<p class="sudo">riise@archlinux: ~</p>
+-->
+    <pre class="info">
+<h2>Über mich</h2>
+<b>Name</b> > Robert Cvitanovic
+<b>Beruf</b> > IT Fachinformatiker Systemintegration
+
+<b>Fähigkeiten:</b>
+    > Programmiersprachen:
+        > HTML, CSS, JavaScript
+        > Python
+        > C++, C#, Java
+    > Frameworks: Node.js
+    > Datenbanken: SQL MongoDB
+    > Tools: Git, Docker, Kubernetes
+    > Cloud: AWS, Azure, 
+
+<b>Kontakt:</b>
+    > Email: riise.art@gmail.com
+<a href="https://riise.site">    > Meine Fotografie-Website</a>
+    </pre>
+</div>
+</div>
+
 
 <br>
 
-<!--About me-->
-<section id="aboutMe">
-        <h2>Robert Cvitanovic</h2>
-        <p>IT - Fachinformatiker Systemintegration</p>
-        <p>i like ...</p>
-            <ul class="links">
-                <li><a href="https://github.com/riise-school">My Github  <i class="fa-brands fa-github"></i></a></li>
-                <li><a href="https://riise.site">My Photography Website</a></li>
-            </ul>
-</section>
 
 <!--Projects -->
-<section id="projects">
-        <h2>My Projects</h2>
-        <p>All my project are hosted on Github, here is the list of them:</p>
+<div class="terminal-window">
+    <div class="terminal-header">
+        <div class="terminal-button maximize"></div>
+        <div class="terminal-button minimize"></div>            
+        <div class="terminal-button close">X</div>
+        <div class="terminal-title">riise@archlinux: ~</div>
+    </div>
+    <section id="projects">
+    </br>
+        <h2>Meine Projekte</h2>
+        <p>Alle meine Projekte sind auf Github gehostet, hier ist die Liste:</p>
         <ul>
-            <li><a href="[Link to Project 1]">Project 1</a> - A brief description of what this project is about and the technologies used.</li>
-            <li><a href="[Link to Project 2]">Project 2</a> - A brief description of what this project is about and the technologies used.</li>
-            <li><a href="[Link to Project 3]">Project 3</a> - A brief description of what this project is about and the technologies used.</li>
+            <li><a href="[Link to Project 1]">
+                <div class="logo-projects">
+                    <img src="img/arch-logo.png" alt="arch-logo">
+                </div>
+                <p>Projekt 1</a> - Eine kurze Beschreibung dieses Projekts und der verwendeten Technologien.</p></li>
+            <li>
+                <div class="logo-projects">
+                    <img src="img/arch-logo.png" alt="arch-logo">
+                </div>
+                <p><a href="[Link to Project 2]">Projekt 2</a> - Eine kurze Beschreibung dieses Projekts und der verwendeten Technologien.</p></li>
+            <li>
+                <div class="logo-projects">
+                    <img src="img/arch-logo.png" alt="arch-logo">
+                </div>
+                <p><a href="[Link to Project 3]">Projekt 3</a> - Eine kurze Beschreibung dieses Projekts und der verwendeten Technologien.</p></li>
         </ul>
-</section>
+    </section>
+</div>
 
 <!--Skills-->
 <section id="skills">
-<h2>My Skills</h2>
-<ul>
-    <!--Linux -->
+    <h2>Meine Fähigkeiten</h2>
+    <ul>
+        <!--Linux -->
     <li><h4> Linux (Arch)</h4>
         <ul>
-            <li>Linux Command Line Proficiency</li>
-            <li>System Administration</li>
-            <li>Networking and Security</li>
-            <li>Package Management</li>
-            <li>Monitoring and Troubleshooting</li>
-            <li>Version Control Systems</li>
-            <li>Backup and Recovery</li>
+            <li>Linux Kommandozeilen-Profi</li>
+            <li>Systemadministration</li>
+            <li>Netzwerk und Sicherheit</li>
+            <li>Paketmanagement</li>
+            <li>Überwachung und Fehlersuche</li>
+            <li>Versionskontrollsysteme</li>
+            <li>Backup und Wiederherstellung</li>
             <li>Continuous Integration/Continuous Deployment</li>
         </ul>
     </li>
     <!--Docker,VMware -->
-    <li><h4>Virtualizirung / Cloud Computing (Docker, VMware)</h4>
+    <li><h4>Virtualisierung / Cloud Computing (Docker, VMware)</h4>
         <ul>
-            <li>VM Lifecycle Management</li>
-            <li>Storage and Networking in Virtual Environments</li>
-            <li>Performance Monitoring and Optimization</li>
-            <li>Backup and Disaster Recovery</li>
-            <li>Security in Virtual Environments</li>
-            <li>Containers and Container Orchestration</li>
-            <li>Industry Standards and Best Practices</li>
-            <li>Troubleshooting and Support</li>
+            <li>VM-Lebenszyklusverwaltung</li>
+            <li>Speicher- und Netzwerkverwaltung in virtuellen Umgebungen</li>
+            <li>Leistungsüberwachung und -optimierung</li>
+            <li>Backup und Notfallwiederherstellung</li>
+            <li>Sicherheit in virtuellen Umgebungen</li>
+            <li>Container und Container-Orchestrierung</li>
+            <li>Branchenspezifische Standards und Best Practices</li>
+            <li>Fehlerbehebung und Support</li>
         </ul>
     </li>
     <!--Database -->
-    <li><h4>Database Management</h4>
+    <li><h4>Datenbankverwaltung</h4>
         <ul>
             <li>SQL</li>
         </ul>
@@ -102,15 +170,15 @@
         </ul>
     </li>-->
     <!--GIT -->
-    <li><h4>Version Control (Git)</h4>
+    <li><h4>Versionskontrolle (Git)</h4>
         <ul>
-            <li>Basic Git Commands</li>
-            <li>Branching and Merging</li>
-                            <li>Remote Repositories</li>
+            <li>Grundlegende Git-Befehle</li>
+            <li>Branching und Merging</li>
+            <li>Remote-Repositories</li>
         </ul>
     </li>
     <!--WebDev -->
-    <li><h4>web development</h4>
+    <li><h4>Webentwicklung</h4>
         <ul>
             <li><h4>Frontend</h4>
                 <ul>
@@ -123,7 +191,7 @@
         </ul>
     </li>
     <!-- Software-->
-    <li><h4>small software development</h4>
+    <li><h4>Kleine Softwareentwicklung</h4>
         <ul>
             <li>Cpp</li>
             <li>C#</li>
@@ -132,53 +200,52 @@
     </li>
 </ul>
 </section>
-
-<!-- CONTACT FORM -->
+<!--Contact form -->
 <section id="contact-form">
   <div class="contact-intro">
-    <h2 class="contact-title">Get in Touch</h2>
+    <h2 class="contact-title">Kontakt aufnehmen</h2>
     <p class="contact-description">
-      Fill out the form below and I'll get back to you as soon as possible.
+      Füllen Sie das untenstehende Formular aus und ich werde mich so schnell wie möglich bei Ihnen melden.
     </p>
   </div>
 
   <form id="contactForm" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
     <input type="hidden" name="access_key" value="a7d82ab3-d97d-462a-a089-d4dd5526978c" />
-    <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
-    <input type="hidden" name="from_name" value="My Website" />
+    <input type="hidden" name="subject" value="Neue Kontaktformular-Einreichung von Web3Forms" />
+    <input type="hidden" name="from_name" value="Meine Website" />
 
     <div class="form-group-container">
       <div class="form-group">
         <label for="name" class="form-label">Name</label>
-        <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+        <input id="name" name="name" class="form-input" placeholder="Ihr Name" type="text" />
       </div>
       <div class="form-group">
         <label for="email" class="form-label">Email</label>
-        <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+        <input id="email" name="email" class="form-input" placeholder="Ihre Email" type="email" />
       </div>
       <div class="form-group">
-        <label for="phone" class="form-label">Phone</label>
+        <label for="phone" class="form-label">Telefon</label>
         <input id="phone" name="phone" class="form-input" placeholder="+49 (123) 456789" type="text" />
       </div>
       <div class="form-group">
-        <label for="message" class="form-label">Message</label>
-        <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+        <label for="message" class="form-label">Nachricht</label>
+        <textarea class="form-textarea" id="message" name="message" placeholder="Ihre Nachricht"></textarea>
       </div>
     </div>
     <div class="h-captcha" data-captcha="true"></div>
-    <button class="form-submit" type="submit">Send Message</button>
+    <button class="form-submit" type="submit">Nachricht senden</button>
   </form>
 </section>
-<a href="HTML-pages/contact.html" class="button-link">Separate contact form page</a>
+<a href="HTML-pages/contact.html" class="button-link">Separate Kontaktformular-Seite</a>
 <br>
 <!--FOOTER-->
 <footer>
     <div id="impressum">
-        <p><a href="HTML-pages/impressum.html">Impressum</a></p>
+        <p><a href="HTML-pages/impressum.html">> Impressum</a></p>
     </div>
     
     <div id="data-protection">
-        <p><a href="HTML-pages/Data-protection.html">Data Protection</a></p>
+        <p><a href="HTML-pages/Data-protection.html">> Datenschutz</a></p>
     </div>
 </footer>
 <!-- JAVASCRIPT-->
