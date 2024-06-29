@@ -1,5 +1,19 @@
-/* Phones with screen width up to 480px */
-@media (max-width: 480px) {
+/* Phones with screen width up to 480px 
+@media (max-width: 480px) {}*/
+  
+/* Phones with screen width between 481px and 767px
+@media (min-width: 481px) and (max-width: 767px) {}*/
+  
+/* Phones with screen width between 768px and 991px
+@media (min-width: 768px) and (max-width: 991px) {} */
+  
+/* Phones with screen width between 992px and 1199px
+@media (min-width: 992px) and (max-width: 1199px) {}*/
+
+/* Phones with screen width 1200px and above
+  @media (min-width: 1200px) {}*/
+
+@media (min-width: 0px) and (max-width: 1199px) {
 .menu-icon {
     display: block;
     font-size: 28px;
@@ -45,156 +59,4 @@ section{
 #projects ul li{
     width: 80%;
 }
-
 }
-  
-/* Phones with screen width between 481px and 767px */
-@media (min-width: 481px) and (max-width: 767px) {
-.menu-icon {
-    display: block;
-    font-size: 28px;
-    cursor: pointer;
-    position: fixed;
-    right: 35px;
-    top: 15px;
-    z-index: 1001;
-}
-
-.nav1 {
-    position: fixed;
-    right: -100%; 
-    width: 100%;
-    height: 100vh;
-    background: radial-gradient(circle at bottom, #2b4252 , #060c0c);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    transition: transform 0.7s ease, right 0.7s ease; 
-    transform: translateY(-100%);
-    transform-origin: top right; 
-}
-
-.nav1.show {
-    transform: translateY(0); 
-    right: 0; 
-    margin: 0;
-    width: 100%;
-    height: 100%;
-}
-
-nav ul li:last-child{
-    padding-bottom: 50px;
-}
-.logo{
-    margin: 0px !important;
-}
-section{
-    margin: 0px 15px;
-}
-#projects ul li{
-    width: 80%;
-}
-}
-  
-/* Phones with screen width between 768px and 991px */
-@media (min-width: 768px) and (max-width: 991px) {
-.menu-icon {
-    display: block;
-    font-size: 28px;
-    cursor: pointer;
-    position: fixed;
-    right: 35px;
-    top: 15px;
-    z-index: 1001;
-    }
-
-.nav1 {
-    position: fixed;
-    right: -100%; 
-    width: 100%;
-    height: 100vh;
-    background: radial-gradient(circle at bottom, #2b4252 , #060c0c);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    transition: transform 0.7s ease, right 0.7s ease; 
-    transform: translateY(-100%);
-    transform-origin: top right; 
-}
-
-.nav1.show {
-    transform: translateY(0); 
-    right: 0; 
-    margin: 0;
-    width: 100%;
-    height: 100%;
-}
-
-nav ul li:last-child{
-    padding-bottom: 50px;
-}
-.logo{
-    margin: 0px !important;
-}
-section{
-    margin: 0px 15px;
-}
-#projects ul li{
-    width: 80%;
-}
-}
-  
-/* Phones with screen width between 992px and 1199px */
-@media (min-width: 992px) and (max-width: 1199px) {
-.menu-icon {
-    display: block;
-    font-size: 28px;
-    cursor: pointer;
-    position: fixed;
-    right: 35px;
-    top: 15px;
-    z-index: 1001;
-    }
-
-.nav1 {
-    position: fixed;
-    right: -100%; 
-    width: 100%;
-    height: 100vh;
-    background: radial-gradient(circle at bottom, #2b4252 , #060c0c);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    transition: transform 0.7s ease, right 0.7s ease; 
-    transform: translateY(-100%);
-    transform-origin: top right; 
-}
-
-.nav1.show {
-    transform: translateY(0); 
-    right: 0; 
-    margin: 0;
-    width: 100%;
-    height: 100%;
-}
-
-nav ul li:last-child{
-    padding-bottom: 50px;
-}
-.logo{
-    margin: 0px !important;
-}
-section{
-    margin: 0px 15px;
-}
-#projects ul li{
-    width: 80%;
-}
-  }
-
-  /* Phones with screen width 1200px and above */
-  @media (min-width: 1200px) {}
-  
