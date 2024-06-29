@@ -8,6 +8,7 @@ function closeMenu() {
     nav.classList.remove('show');
 }
 
+// self typing text
 document.addEventListener("DOMContentLoaded", function() {
     const text = `Welcome to my website!`;
     const typingContainer = document.getElementById("typing-container");
@@ -19,8 +20,8 @@ document.addEventListener("DOMContentLoaded", function() {
             index++;
             setTimeout(() => {
                 typingContainer.textContent = typingContainer.textContent.slice(0, -1);
-                setTimeout(type, 400); // typing speed
-            }, 200); // delay for slash visibility
+                setTimeout(type, 233); // typing speed
+            }, 233); // delay for slash visibility
         }
     }
 
