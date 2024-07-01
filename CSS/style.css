@@ -65,13 +65,13 @@ section{
     margin: auto;
     max-width: 800px;
 }
-#aboutMe ul, #projects ul, #skills ul{
+#aboutMe ul, #projects ul{
     margin-bottom: 20px;
 }
-#aboutMe ul li, #projects ul li, #skills ul li{
+#aboutMe ul li, #projects ul li{
     list-style-type: none;
 }
-#aboutMe ul ul li, #projects ul ul li, #skills ul ul li{
+#aboutMe ul ul li, #projects ul ul li{
     list-style-type: circle;
     padding: 3px;
 }
@@ -87,19 +87,21 @@ section{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 22%;
 }
+#skills{
+    width: 90%;
+    margin: 70px auto;
+    padding: 10px;
+}
 #skills ul li{
     background-color: #141e25;
-    padding: 15px;
+    padding: 25px;
+    margin-top: 33px;
     border-radius: 8px;
-    width: 80%;
-}
-
-#skills ul li{
-    margin: 20px;
+    box-shadow: 0 4px 8px rgba(163, 192, 255, 0.1);
+    list-style-type: none;
 }
 
 /*FOOTER*/
-
 footer{
     background-color: #1a2731;
     padding-top: 20px;

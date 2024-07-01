@@ -14,9 +14,7 @@
   @media (min-width: 1200px) {}*/
 
 @media (min-width: 0px) and (max-width: 1199px) {
-#skills{
-    margin: 100px 15px;
-}
+
     .menu-icon {
     display: block;
     font-size: 28px;
@@ -62,6 +60,7 @@ section{
 }
 #projects ul li{
     width: 80%;
+    margin: 12px auto;
 }
 .landingPage{
     width: 50%;
@@ -89,10 +88,10 @@ section{
     margin: 25px 15px;
     float: left;
 }
-.skills-list{
-    width: 95%;
-    padding: 0px;
-    margin: 0px auto;
+#skills ul li{
+    width: 75%;
+    margin: 25px auto;
+
 }
 #contact-form{
     width: 80% !important;
