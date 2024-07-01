@@ -14,19 +14,22 @@
   @media (min-width: 1200px) {}*/
 
 @media (min-width: 0px) and (max-width: 1199px) {
-.menu-icon {
+#skills{
+    margin: 100px 15px;
+}
+    .menu-icon {
     display: block;
     font-size: 28px;
     cursor: pointer;
     position: fixed;
     right: 35px;
     top: 15px;
-    z-index: 1001;
+    z-index: 1002;
 }
 
 .nav1 {
     position: fixed;
-    right: -100%; 
+    right: -130%; 
     width: 100%;
     height: 100vh;
     background: radial-gradient(circle at bottom, #2b4252 , #060c0c);
@@ -36,7 +39,8 @@
     justify-content: space-around;
     transition: transform 0.7s ease, right 0.7s ease; 
     transform: translateY(-100%);
-    transform-origin: top right; 
+    transform-origin: top right;
+    z-index: 1001;
 }
 
 .nav1.show {
@@ -59,4 +63,43 @@ section{
 #projects ul li{
     width: 80%;
 }
+.landingPage{
+    width: 50%;
+    margin: 35% auto;
+}
+.nav1.show{
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.terminalWindow{
+    width: 80%;
+    margin: 10px auto;
+}
+.logo img{
+    float: none;
+    max-width: 20%;
+    margin: 10px;
+}
+.logo{
+    text-align: center;
+}
+.logoProjects img{
+    max-width: 16%;
+    margin: 25px 15px;
+    float: left;
+}
+.skills-list{
+    width: 95%;
+    padding: 0px;
+    margin: 0px auto;
+}
+#contact-form{
+    width: 80% !important;
+    margin: 20px;
+}
+#h-capcha{
+    width: 20% !important;
+}
+
 }

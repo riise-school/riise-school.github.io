@@ -75,6 +75,9 @@ section{
     list-style-type: circle;
     padding: 3px;
 }
+#projects{
+    padding: 25px;
+}
 #projects ul li{
     display: inline-block;
     background-color: #1a2731;
@@ -85,11 +88,12 @@ section{
     width: 22%;
 }
 #skills ul li{
-    background-color: #1a2731;
+    background-color: #141e25;
     padding: 15px;
     border-radius: 8px;
     width: 80%;
 }
+
 #skills ul li{
     margin: 20px;
 }
@@ -99,6 +103,7 @@ section{
 footer{
     background-color: #1a2731;
     padding-top: 20px;
+    margin-top: 35px;
 }
 #impressum, #data-protection{
     width: 30%;
@@ -107,11 +112,9 @@ footer{
 
 
 
-
-
-.terminal-window {
+.terminalWindow {
     font-family: 'Courier New', Courier, monospace;
-    width: 1200px;
+    width: 800px;
     background-color: #2b2b2b;
     color: #ffffff;
     overflow: hidden;
@@ -137,7 +140,7 @@ footer{
     align-items: center;
 }
 
-.terminal-button {
+.terminalButton {
     width: 18px;
     height: 18px;
     border-radius: 50%;
@@ -173,7 +176,7 @@ footer{
     margin: 35px;
     height: 35  0px;
 }
-.logo-projects img{
+.logoProjects img{
     max-width: 140px;
 }
 .color-cyan {
@@ -188,6 +191,7 @@ footer{
     color: #d8dee9;
     margin-top: 20px;
     font-size: 15px;
+    display: inline-block;
 }
 a{
     color: white;
