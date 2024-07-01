@@ -114,7 +114,7 @@ footer{
 
 .terminalWindow {
     font-family: 'Courier New', Courier, monospace;
-    width: 800px;
+    max-width: 800px;
     background-color: #2b2b2b;
     color: #ffffff;
     overflow: hidden;
