@@ -14,8 +14,11 @@
   @media (min-width: 1200px) {}*/
 
 @media (min-width: 0px) and (max-width: 1199px) {
-
-    .menu-icon {
+*{
+    padding: 0px;
+}
+    
+.menu-icon {
     display: block;
     font-size: 28px;
     cursor: pointer;

@@ -1,3 +1,11 @@
+*{
+    -moz-hyphens: auto;
+      -o-hyphens: auto;
+      -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
+}
+
 body{
     background: radial-gradient(circle at bottom, #2b4252 , #060c0c);
     color: #d3d3d3;
@@ -126,12 +134,10 @@ footer{
 }
 @keyframes float {
     0%, 100% {
-        box-shadow: -5px -5px 5px 5px rgba(1, 33, 93, 0.8), 5px 5px 5px 2px rgba(4, 133, 53, 0.8);
-        transform: translateY(2);
+        box-shadow: -5px -5px 5px 2px rgba(9, 66, 173, 0.8), 5px 5px 5px 2px rgba(4, 133, 53, 0.8);
     }
     50% {
-        box-shadow: -10px -10px 15px 5px rgba(1, 33, 93, 0.6), 10px 10px 15px 8px rgba(1, 107, 42, 0.6);
-        transform: translateY(-2px);
+        box-shadow: -10px -10px 15px 2px rgba(1, 33, 93, 0.6), 10px 10px 15px 5px rgba(1, 107, 42, 0.6);
     }
 }
 
