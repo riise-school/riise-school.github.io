@@ -1,71 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Protection</title>
-    <link href="../CSS/data-protection.css" rel="stylesheet">
-    <link href="../CSS/style.css" rel="stylesheet">
-
+    <title>Datenschutz</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Data Protection</h1>
-        
-        <div class="section">
-            <h2>General Information</h2>
-            <p>The following information provides a simple overview of what happens to your personal data when you visit our website. Personal data is any data with which you could be personally identified. Detailed information on the subject of data protection can be found in our privacy policy listed below.</p>
-        </div>
+    <header>
+        <h1>Datenschutz</h1>
+    </header>
+    <main>
+        <section id="general-info">
+            <h2>Allgemeine Informationen</h2>
+            <p>Diese Informationen geben Auskunft darüber, wie personenbezogene Daten behandelt werden, wenn Sie unsere Website besuchen. Personenbezogene Daten sind alle Informationen, die Sie persönlich identifizieren könnten. Für ausführliche Informationen zum Datenschutz lesen Sie bitte unsere <a href="#">Datenschutzerklärung</a>. Bei Fragen kontaktieren Sie uns bitte unter:</p>
+            <ul>
+                <li>E-Mail: <a href="mailto:riise.art@gmail.com">riise.art@gmail.com</a></li>
+            </ul>
+        </section>
 
-        <div class="section">
-            <h2>Data Collection on Our Website</h2>
-            <h3>Who is responsible for the data collection on this website?</h3>
-            <p>The data collected on this website are processed by the website operator. The operator’s contact details can be found in the website’s required legal notice.</p>
+        <section id="data-collection">
+            <h2>Datensammlung auf unserer Website</h2>
+            <h3>Verantwortliche Stelle für die Datensammlung</h3>
+            <p>Der für diese Website verantwortliche Datenschutzbeauftragte ist im Impressum der Website zu finden.</p>
+            <h3>Wie wir Ihre Daten sammeln</h3>
+            <p>Wir sammeln Daten, die Sie uns zur Verfügung stellen, z.B. durch das Ausfüllen eines Kontaktformulars.</p>
+            <h3>Zweck der Datenverwendung</h3>
+            <p>Die von Besuchern bereitgestellten Daten werden über Web3Forms gesendet und anschließend an das Gmail-Konto des Website-Betreibers weitergeleitet.</p>
+        </section>
 
-            <h3>How do we collect your data?</h3>
-            <p>Some data are collected when you provide it to us. This could, for example, be data you enter on a contact form.</p>
-            <p>Other data are collected automatically by our IT systems when you visit the website. These data are primarily technical data such as the browser and operating system you are using or when you accessed the page. These data are collected automatically as soon as you enter our website.</p>
+        <section id="rights">
+            <h2>Ihre Rechte bezüglich Ihrer Daten</h2>
+            <h3>Ihre Rechte</h3>
+            <p>Sie haben das Recht, Auskunft über Ihre gespeicherten Daten, deren Herkunft, Empfänger und den Zweck der Datensammlung kostenlos zu erhalten. Sie haben auch das Recht, die Korrektur, Sperrung oder Löschung Ihrer Daten zu verlangen. Bei Fragen zum Datenschutz können Sie uns unter den im Impressum angegebenen Kontaktdaten kontaktieren. Sie haben außerdem das Recht, sich bei der zuständigen Aufsichtsbehörde zu beschweren.</p>
+        </section>
 
-            <h3>What do we use your data for?</h3>
-            <p>Part of the data is collected to ensure the proper functioning of the website. Other data can be used to analyze how visitors use the site.</p>
-        </div>
+        <section id="analytics">
+            <h2>Analytics und Tools von Drittanbietern</h2>
+            <p>Auf dieser Website werden keine Analysetools verwendet und es werden keine statistischen Analysen des Surfverhaltens der Besucher durchgeführt. Es handelt sich um eine einfache statische Portfolio-Website mit einem Kontaktformular, und es werden keine Daten zum Zweck der Analyse des Besucherverhaltens gesammelt.</p>
+            <p>Ihr Surfverhalten bleibt anonym, da keine Analysetools verwendet werden, die Sie durch diese Daten identifizieren könnten. Sie können sicher sein, dass Ihre Privatsphäre während Ihres Besuchs geschützt wird.</p>
+        </section>
 
-        <div class="section">
-            <h2>Your Rights Regarding Your Data</h2>
-            <h3>What rights do you have regarding your data?</h3>
-            <p>You always have the right to request information about your stored data, its origin, its recipients, and the purpose of its collection at no charge. You also have the right to request that it be corrected, blocked, or deleted. You can contact us at any time using the address given in the legal notice if you have further questions about the issue of privacy and data protection. You may also, of course, file a complaint with the competent regulatory authorities.</p>
-        </div>
+        <section id="encryption">
+            <h2>SSL/TLS-Verschlüsselung</h2>
+            <p>Zu Sicherheitszwecken verwendet unsere Website SSL/TLS-Verschlüsselung, die von GitHub bereitgestellt wird, um die Übertragung sensibler Inhalte wie der über Kontaktformulare übermittelten Informationen zu schützen. Eine verschlüsselte Verbindung ist am "https://" Adresspräfix und am Schlosssymbol in der Adressleiste Ihres Browsers erkennbar. Diese Funktion stellt sicher, dass an uns übertragene Daten nicht von Dritten gelesen werden können.</p>
+            <p>Bitte beachten Sie, dass die SSL/TLS-Verschlüsselung von GitHub verwaltet wird und wir keinen direkten Einfluss auf diesen Aspekt der Sicherheit unserer Website haben.</p>
+        </section>
 
-        <div class="section">
-            <h2>Analytics and Third-Party Tools</h2>
-            <p>When visiting our website, statistical analyses may be made of your surfing behavior. This happens primarily using cookies and analytics. The analysis of your surfing behavior is usually anonymous, i.e. we will not be able to identify you from this data. You can object to this analysis or prevent it by not using certain tools. Detailed information can be found in the following privacy policy.</p>
-        </div>
+        <section id="information">
+            <h2>Auskunft, Sperrung, Löschung</h2>
+            <p>Gemäß den gesetzlichen Bestimmungen haben Besucher das Recht, Auskunft über ihre gespeicherten personenbezogenen Daten, deren Herkunft, Empfänger und den Zweck der Datensammlung kostenlos zu erhalten. Sie haben auch das Recht, die Berichtigung, Sperrung oder Löschung Ihrer Daten zu verlangen. Bei weiteren Fragen zum Datenschutz wenden Sie sich bitte an uns unter den im Impressum angegebenen Kontaktdaten.</p>
+            <p>Wir bemühen uns, alle gesetzlichen Anforderungen im Umgang mit personenbezogenen Daten zu erfüllen. Wenn Sie Bedenken bezüglich der Verwendung Ihrer Daten haben, zögern Sie bitte nicht, uns zu kontaktieren.</p>
+        </section>
 
-        <div class="section">
-            <h2>Data Protection</h2>
-            <h3>Revocation of Your Consent to the Processing of Your Data</h3>
-            <p>Many data processing operations are only possible with your express consent. You may revoke your consent at any time with future effect. An informal email making this request is sufficient. The data processed before we receive your request may still be legally processed.</p>
+        <section id="opposition">
+            <h2>Widerspruch gegen Werbe-E-Mails</h2>
+            <p>Wir untersagen ausdrücklich die Verwendung von Kontaktdaten, die im Rahmen der rechtlichen Hinweise der Website zur Verfügung gestellt wurden, um unaufgeforderte Werbe- oder Informationsmaterialien zu senden. Falls Sie unaufgeforderte Werbe-E-Mails erhalten oder sich vom Erhalt weiterer Mitteilungen abmelden möchten, kontaktieren Sie uns bitte direkt unter den im Impressum angegebenen Kontaktdaten.</p>
+            <p>Wir sind bestrebt, die Integrität Ihrer Kontaktdaten zu wahren und werden geeignete Maßnahmen ergreifen, um den unbefugten Gebrauch Ihrer Daten zu Marketingzwecken zu verhindern.</p>
+        </section>
 
-            <h3>Right to File Complaints with Regulatory Authorities</h3>
-            <p>If there has been a breach of data protection legislation, the person affected may file a complaint with the competent regulatory authorities. The competent regulatory authority for matters related to data protection legislation is the data protection officer of the German state in which our company is headquartered. A list of data protection officers and their contact details can be found at the following link: <a href="https://www.bfdi.bund.de/EN/Home/home_node.html" target="_blank">https://www.bfdi.bund.de/EN/Home/home_node.html</a>.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Riise Portfolio Website. Alle Rechte vorbehalten.</p>
+    </footer>
 
-            <h3>Right to Data Portability</h3>
-            <p>You have the right to have data which we process based on your consent or in fulfillment of a contract automatically delivered to yourself or to a third party in a standard, machine-readable format. If you require the direct transfer of data to another responsible party, this will only be done to the extent technically feasible.</p>
+    <style>
+    /* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
 
-            <h3>SSL or TLS Encryption</h3>
-            <p>This site uses SSL or TLS encryption for security reasons and for the protection of the transmission of confidential content, such as the inquiries you send to us as the site operator. You can recognize an encrypted connection in your browser's address line when it changes from "http://" to "https://" and the lock icon is displayed in your browser's address bar.</p>
-            <p>If SSL or TLS encryption is activated, the data you transfer to us cannot be read by third parties.</p>
-        </div>
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
 
-        <div class="section">
-            <h2>Information, Blocking, Deletion</h2>
-            <p>As permitted by law, you have the right to be provided at any time with information free of charge about any of your personal data that is stored as well as its origin, the recipient, and the purpose for which it has been processed. You also have the right to have this data corrected, blocked, or deleted. You can contact us at any time using the address given in our legal notice if you have further questions on the topic of personal data.</p>
-        </div>
+header h1 {
+    margin: 0;
+}
 
-        <div class="section">
-            <h2>Opposition to Promotional Emails</h2>
-            <p>We hereby expressly prohibit the use of contact data published in the context of website legal notice requirements with regard to sending promotional and informational materials not expressly requested. The website operator reserves the right to take specific legal action if unsolicited advertising material, such as email spam, is received.</p>
-        </div>
-    </div>
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #555;
+    margin-top: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    bottom: 0;
+    width: 100%;
+}
+    </style>
 </body>
 </html>
