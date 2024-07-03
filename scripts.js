@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function type() {
         if (index < text.length) {
-            typingContainer.textContent = text.slice(0, index + 1); // Remove the underscore
+            typingContainer.textContent = text.slice(0, index + 1);
             index++;
             let delay;
             if (index <= 4) { // First 4 characters "Welc"
