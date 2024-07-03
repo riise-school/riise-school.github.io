@@ -65,6 +65,7 @@ a{
 /*LANDING PAGE*/
 .landingPage{
     width: 100%;
+    text-align: center;
     margin: 25% auto;
 }
 
@@ -215,7 +216,6 @@ a{
     font-family: 'Courier New', Courier, monospace;
     font-size: 2em;
     color: #ffffff;
-    padding-left: 25%;
 }
 .container-typing{
     width: 80%;

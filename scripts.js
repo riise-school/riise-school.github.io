@@ -9,7 +9,7 @@ function closeMenu() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    const text = `Welcome to my website!`;
+    const text = `Entdecke meine Arbeit und Leidenschaft in der IT!`;
     const typingContainer = document.getElementById("typing-container");
     let index = 0;
 

@@ -1,17 +1,34 @@
-/* Phones with screen width up to 480px 
-@media (max-width: 480px) {}*/
-  
-/* Phones with screen width between 481px and 767px
-@media (min-width: 481px) and (max-width: 767px) {}*/
-  
-/* Phones with screen width between 768px and 991px
-@media (min-width: 768px) and (max-width: 991px) {} */
-  
-/* Phones with screen width between 992px and 1199px
-@media (min-width: 992px) and (max-width: 1199px) {}*/
+/* Smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media (min-width: 320px) {}
 
-/* Phones with screen width 1200px and above
-  @media (min-width: 1200px) {}*/
+/* Smartphones, Android phones, landscape iPhone */
+@media (min-width: 480px) {}
+
+/* Portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media (min-width: 600px) {}
+
+/* Tablet, landscape iPad, lo-res laptops and desktops */
+@media (min-width: 801px) {}
+
+/* Big landscape tablets, laptops, and desktops */
+@media (min-width: 1025px) {}
+
+/* Hi-res laptops and desktops */
+@media (min-width: 1281px) {}
+
+/* TVs with screen height of at least 720px (HD) */
+@media screen and (min-height: 720px) {}
+
+/* TVs with screen height of at least 1080px (Full HD) */
+@media screen and (min-height: 1080px) {}
+
+/* TVs with screen height of at least 1440px (2K) */
+@media screen and (min-height: 1440px) {}
+
+/* TVs with screen height of at least 2160px (4K) */
+@media screen and (min-height: 2160px) {}
+
+
 
 @media (min-width: 0px) and (max-width: 1199px) {
 *{
@@ -66,7 +83,7 @@ section{
     margin: 12px auto;
 }
 .landingPage{
-    width: 50%;
+    width: 92%;
     margin: 35% auto;
 }
 .nav1.show{
