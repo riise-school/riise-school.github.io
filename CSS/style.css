@@ -131,14 +131,14 @@ footer{
     overflow: hidden;
     margin: 50px auto;
     border-radius: 1.5%;
-    animation: float 4s ease-in-out infinite;   
+    animation: float 2.8s ease-in-out infinite;   
 }
 @keyframes float {
     0%, 100% {
-        box-shadow: -5px -5px 5px 2px rgba(9, 66, 173, 0.8), 5px 5px 5px 2px rgba(4, 133, 53, 0.8);
+        box-shadow: -3px -3px 3px 1px rgba(9, 66, 173, 0.6), 3px 3px 3px 1px rgba(4, 133, 53, 0.6);
     }
     50% {
-        box-shadow: -10px -10px 15px 2px rgba(1, 33, 93, 0.6), 10px 10px 15px 5px rgba(1, 107, 42, 0.6);
+        box-shadow: -5px -5px 5px 2px rgba(1, 33, 93, 0.3), 5px 5px 5px 2px rgba(1, 107, 42, 0.3);
     }
 }
 
@@ -201,6 +201,12 @@ footer{
     margin-top: 20px;
     font-size: 15px;
     display: inline-block;
+}
+.info ul {
+    list-style-type: none;
+}
+.info p{
+    margin: 0px;
 }
 a{
     color: white;
