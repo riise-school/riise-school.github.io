@@ -12,15 +12,16 @@
     <!--CSS - contact form-->
     <link href="CSS/contact-form.css" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Playwrite+NG+Modern:wght@100..400&family=Space+Grotesk:wght@300..700&family=Wellfleet&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Playwrite+NG+Modern:wght@100..400&family=Space+Grotesk:wght@300..700&family=Wellfleet&display=swap" rel="stylesheet">
 
     </head>
 <body>
 
 <!--HEADER-->   
 <header>
+<!-- Navigation bar-->        
     <nav>
         <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
         <ul class="nav1">
@@ -34,14 +35,19 @@
         </ul>
     </nav>
 </header>
-<!--Landing page                -->
+
+<!--Landing page - Self typing text-->
+<section>
     <div class="landingPage">
         <div class="container-typing">
             <div class="typing-container" id="typing-container"></div>
             <!-- The text will be inserted here by JavaScript -->
         </div>
     </div>
-<!--Terminal window-->
+</section>
+
+<!--Terminal window - Introduction - About me-->
+<div>
 <div class="terminalWindow">
     <div class="terminal-header">
         <div class="terminalButton maximize"></div>
@@ -53,49 +59,38 @@
     <div class="logo">
         <img src="img/arch-logo.png" alt="arch-logo">
     </div>
-<!--
-<span class="color-cyan">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</span>
-<span class="color-cyan">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</span>
-<span class="color-cyan">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</span>    
-<span class="color-cyan">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</span>
-<span class="color-cyan">⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣷⣤⣙⢻⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀</span>
-<span class="color-cyan">⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀</span>
-<span class="color-cyan">⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡄⠀⠀⠀⠀⠀⠀⠀</span>
-<span class="color-cyan">⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⡿⠛⠛⠿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀</span>
-<span class="color-cyan">⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠙⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀</span>
-<span class="color-cyan">⠀⠀⠀⠀⣰⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⠿⣆⠀⠀⠀⠀</span>
-<span class="color-cyan">⠀⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀</span>
-<span class="color-cyan">⠀⢀⣾⣿⣿⠿⠟⠛⠋⠉⠉⠀⠀⠀⠀⠀⠀⠉⠉⠙⠛⠻⠿⣿⣿⣷⡀⠀</span>
-<span class="color-cyan">⣠⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠻⣄</span>
-<p class="sudo">riise@archlinux: ~</p>
--->
-    <pre class="info">
-<h2 id="about">Über mich</h2>
-<b>Name:</b>
-> Robert Cvitanovic
-<b>Beruf:</b>
-> IT Fachinformatiker Systemintegration
+    
+<!-- Terminal INFO - about me-->
+    <div class="info">
+        <h2 id="about">Über mich</h2>
+            <ul>
+                <p>Name:</p>
+                <li>~ Robert Cvitanovic</li>
+            </ul>
+            <ul>
+                <p>Beruf:</p>
+                <li>~ IT Fachinformatiker Systemintegration</li>
+            </ul>
 
-<b>Fähigkeiten:</b>
-    > Programmiersprachen:
-        > HTML, CSS, JavaScript
-        > Python
-        > C++, C#, Java
-    > Frameworks: Node.js
-    > Datenbanken: SQL MongoDB
-    > Tools: Git, Docker, Kubernetes
-    > Cloud: AWS, Azure, 
-
-<b>Kontakt:</b>
-    > Email: riise.art@gmail.com
-<a href="https://riise.site">    > Meine Fotografie-Website</a>
-    </pre>
+            <h3>Fähigkeiten:</h3>
+            <ul>
+                <p>~ Programmiersprachen:</p>
+                <li>~ HTML, CSS, JavaScript</li>    
+                <li>~ Python</li>    
+                <li>~ C++, C#, Java</li>    
+                <li>~ Frameworks: Node.js</li>    
+                <li>~ Datenbanken: SQL MongoDB</li>    
+                <li>~ Tools: Git, Docker, Kubernetes</li>    
+                <li>~ Cloud: AWS, Azure</li>    
+            </ul>
+            <ul>
+                <p>Kontakt:</p>
+                <li><a href="https://riise.site">~ Photography Site</a></li>
+                <li> ~ Email: riise.art@gmail.com</li>
+            </ul>
+    </div>
 </div>
 </div>
-
-
-<br>
-
 
 <!--Projects -->
 <div class="terminalWindow">
@@ -131,56 +126,63 @@
 
 <!--Skills-->
 <section id="skills">
+<h2>Meine Fähigkeiten</h2>
 
-    <h2>Meine Fähigkeiten</h2>
-    <ul>
+<ul>
+<!--Linux -->
         <li>
-            <!--Linux -->
             <h4> Linux (Arch)</h4>
-            <p>> Linux Kommandozeilen</p>
+            <p>> Bash</p>
             <p>> Systemadministration</p>
             <p>> Netzwerk und Sicherheit</p>
             <p>> Paketmanagement</p>
             <p>> Überwachung und Fehlersuche</p>
             <p>> Versionskontrollsysteme</p>
             <p>> Backup und Wiederherstellung</p>
-            <p>> Continuous Integration/Continuous Deployment</p>
         </li>
 
+<!--Docker,VMware -->
         <li>
-            <!--Docker,VMware -->
-            <h4>Virtualisierung / Cloud Computing (Docker, VMware)</h4>
-            <p>> VM-Lebenszyklusverwaltung</p>
-            <p>> Speicher- und Netzwerkverwaltung in virtuellen Umgebungen</p>
-            <p>> Leistungsüberwachung und -optimierung</p>
-            <p>> Backup und Notfallwiederherstellung</p>
-            <p>> Sicherheit in virtuellen Umgebungen</p>
-            <p>> Container und Container-Orchestrierung</p>
-            <p>> Branchenspezifische Standards und Best Practices</p>
-            <p>> Fehlerbehebung und Support</p>
+            <h4>Virtualisierung / Cloud (Docker, VMware)</h4>
+                <p>> Leistungsüberwachung und -optimierung</p>
+                <p>> Backup und Notfallwiederherstellung</p>
+                <p>> Sicherheit in virtuellen Umgebungen</p>
+                <p>> Container und Container-Orchestrierung</p>
+                <p>> Branchenspezifische Standards und Best Practices</p>
+                <p>> Fehlerbehebung und Support</p>
         </li>
         <li>
-            <!--Database -->
+
+<!--Database -->
             <h4>Datenbankverwaltung</h4>
-            <p>> SQL</p>
+                <p>> SQL</p>
+                <p>> MongoDB</p>
         </li>
         <li>
-            <!--GIT -->
+
+<!--GIT -->
             <h4>Versionskontrolle (Git)</h4>
-            <p>Grundlegende Git-Befehle</p>
-            <p>Branching und Merging</p>
-            <p>Remote-Repositories</p>
+                <p>> Initialisierung und Klonen</p>
+                <p>> Grundlegendes Snapshotting</p>
+                <p>> Branching und Merging</p>
+                <p>> Remote-Repositorys</p>
+                <p>> Inspektion und Vergleich</p>
+                <p>> Änderungen rückgängig machen</p>
+                <p>> Tagging</p>
+                <p>> Verschieben und Entfernen von Dateien</p>
         </li>
+
+<!--WebDev -->
         <li>
-            <!--WebDev -->
             <h4>Webentwicklung</h4>
             <p>HTML</p>
             <p>CSS</p>
             <p>Javascript ES6 + JSDocs</p>
             <p>Frameworks</p>
         </li>
+
+<!-- Software-->
         <li>
-            <!-- Software-->
             <h4>Kleine Softwareentwicklung</h4>
             <p>Cpp</p>
             <p>C#</p>
@@ -188,6 +190,7 @@
         </li>
     </ul>
 </section>
+
 <!--Contact form -->
 <section id="contact-form">
   <div class="contact-intro">
@@ -225,7 +228,7 @@
   </form>
 </section>
 
-<!--FOOTER-->
+<!--FOOTER - Impressum && Datenschutz-->
 <footer>
     <div id="impressum">
         <p><a href="HTML-pages/impressum.html"><b>> Impressum</b></a></p>
