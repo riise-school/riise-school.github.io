@@ -84,7 +84,11 @@ section{
 }
 .landingPage{
     width: 92%;
-    margin: 35% auto;
+    margin: 75% auto;
+    font-size: 11px;
+    word-break: break-all;
+}
+.typing.container{
 }
 .nav1.show{
     top: 0;
