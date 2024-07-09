@@ -8,6 +8,7 @@ function closeMenu() {
     nav.classList.remove('show');
 }
 
+// selbsttippender Text
 document.addEventListener("DOMContentLoaded", function() {
     const text = `Entdecke meine Arbeit und Leidenschaft in der IT!`;
     const typingContainer = document.getElementById("typing-container");
